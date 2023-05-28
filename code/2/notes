@@ -1,0 +1,19 @@
+
+linkers ld gcc
+
+main, _start
+
+_exit is the closest we can get to the SYS_exit system call from C
+
+#include <unistd.h>
+
+$ gcc -static -o c2-1s c2-1.c
+$ gcc -static -nostartfiles -o c2-2s c2-2.c
+$ ls -l c2-?s | awk '{print $9, $5;}'
+c2-0s 737
+c2-1s 872956
+c2-2s 5420
+
+
+
+

@@ -1,0 +1,32 @@
+
+The payload is, overall, the principal responsible for the current malware taxonomy and depending on what it does we will get different kinds of malware. For instance:
+
+    Virus. A virus usually have a primary goal and an optional secondary goal. Its primary goal is to live, to propagate itself as much as possible in order to survive. The secondary goal varies but it usually involves destroying data or ruining system performance. For us in this text, the payload will cover both goals. Virus can also infect the whole computer getting installed in a way that they get executed before even the operating system is loaded (the MBR for instance). However these virus are less and less common nowadays, but is something that can still be done.
+
+    Worms. As it happens with virus, worms' main goal is to propagate, but instead of infecting programs in the same computer, Worms infect computers in a network.
+
+    Rabbits or Fork Bombs. These have been traditionally considered virus but they are really local DOS (Denial Of Service) attacks. The payload just start to fork new processes as fast as possible (thus the name), eventually consuming all computer resources making the machine unusable. I just include this for historical reasons, but they are not that popular anymore. I doubt they will work anymore in modern systems. However ...:(){:|:&};: is something you should know as part of the hacker culture.
+
+    Ransomware. For this kind of malware the payload crypts data files in the system. Then it asks for money in exchange for the key to recover the data.
+
+    Spyware. These ones look for sensitive information (passwords, banking data,...) using different techniques and send it out to another machine
+
+    RAT. RAT (Remote Access Trojan) are malware that allows remote control of the machine. For those, due to its nature, the payload function is interactive (will receive commands and send results to a remote machine in an infinite loop) and typically provides many capabilities (access mic/camera, send/copy files, keylogging,....). The T is because they are usually distributed as Trojans.... We'll talk about Trojans in a while.
+
+
+AntiDebug
+
+
+
+Polymorphic Engine
+
+
+
+How to deal with malware?
+
+
+
+
+
+
+

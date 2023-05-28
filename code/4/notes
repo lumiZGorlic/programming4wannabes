@@ -1,0 +1,25 @@
+
+
+	push rbp
+	mov  rbp, rsp
+	sub  rsp, 0x10
+	; PUSH registers used locally
+        (... FUNCTION BODY ...)
+	; POP Registers used locally
+	mov rsp, rbp
+	pop rbp
+	ret
+
+
+Do we need the stack frame?
+
+
+https://stackoverflow.com/questions/1395591/what-is-exactly-the-base-pointer-and-stack-pointer-to-what-do-they-point
+
+
+De Bruijn Sequence
+how to circumvent canaries or deal with ASLR or PIE binaries
+todo - buffer overflow + shell
+
+
+
